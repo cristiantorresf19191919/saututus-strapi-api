@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "karens",
+  "info": {
+    "singularName": "karen",
+    "pluralName": "karens",
+    "displayName": "karen",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header_picture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "header_text": {
+      "type": "string"
+    },
+    "header_number_1": {
+      "type": "integer"
+    },
+    "header_number_1_desc": {
+      "type": "string"
+    },
+    "header_number_2": {
+      "type": "integer"
+    },
+    "header_number_2_desc": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "caracteristicas": {
+      "displayName": "caracteristicas",
+      "type": "component",
+      "repeatable": false,
+      "component": "caracteristicas.caracteristicas"
+    },
+    "header_text_options": {
+      "type": "text"
+    }
+  }
+}

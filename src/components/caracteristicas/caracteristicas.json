@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_caracteristicas_caracteristicas",
+  "info": {
+    "displayName": "caracteristicas",
+    "icon": "cannabis",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "caption": {
+      "type": "string"
+    },
+    "body_title_1": {
+      "type": "richtext"
+    },
+    "body_caption_1": {
+      "type": "string"
+    },
+    "body_title_2": {
+      "type": "string"
+    },
+    "body_cap_2": {
+      "type": "string"
+    },
+    "body_title_3": {
+      "type": "string"
+    },
+    "body_cap_3": {
+      "type": "string"
+    },
+    "body_title_4": {
+      "type": "richtext"
+    },
+    "body_cap_4": {
+      "type": "string"
+    }
+  }
+}

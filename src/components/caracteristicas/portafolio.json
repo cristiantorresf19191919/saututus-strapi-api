@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_caracteristicas_portafolios",
+  "info": {
+    "displayName": "portafolio",
+    "icon": "book-open"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "caption": {
+      "type": "richtext"
+    }
+  }
+}
