@@ -49,6 +49,17 @@
     },
     "header_text_options": {
       "type": "text"
+    },
+    "portafolio": {
+      "type": "component",
+      "repeatable": false,
+      "component": "caracteristicas.portafolio"
+    },
+    "karen_portafolios": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::karen-portafolio.karen-portafolio",
+      "mappedBy": "karen"
     }
   }
 }

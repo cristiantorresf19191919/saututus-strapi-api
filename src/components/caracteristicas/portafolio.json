@@ -2,15 +2,19 @@
   "collectionName": "components_caracteristicas_portafolios",
   "info": {
     "displayName": "portafolio",
-    "icon": "book-open"
+    "icon": "book-open",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "richtext"
+      "type": "string"
     },
     "caption": {
-      "type": "richtext"
+      "type": "string"
+    },
+    "options": {
+      "type": "string"
     }
   }
 }

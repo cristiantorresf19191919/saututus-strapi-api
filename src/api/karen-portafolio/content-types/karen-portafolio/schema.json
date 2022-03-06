@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "karen_portafolios",
+  "info": {
+    "singularName": "karen-portafolio",
+    "pluralName": "karen-portafolios",
+    "displayName": "karen_portafolio",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "caption": {
+      "type": "string"
+    },
+    "picture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "karen": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::karen.karen",
+      "inversedBy": "karen_portafolios"
+    },
+    "key": {
+      "type": "string"
+    }
+  }
+}
